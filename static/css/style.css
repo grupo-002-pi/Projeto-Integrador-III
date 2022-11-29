@@ -5,7 +5,7 @@ body {
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #523817;
+    background-color: #513db2;
     font-weight: bold;
     text-decoration:none;
 }
@@ -41,7 +41,7 @@ h2{
 }
 
 header, .navbar {
-    background-color: #523817;
+    background-color: #513db2;
 }
 
 #nav-container {
@@ -92,7 +92,7 @@ h1{
 }
 
 .dropdown-menu{
-       background-color: #523817;
+       background-color: #513db2;
 }
 
 .form-group{
@@ -105,12 +105,12 @@ h1{
 }
 
 .btn-secondary {
-     background-color: #523817;
+     background-color: #513db2;
 }
 
 .btn-group{
     margin-top: 9px;
-    background-color: #523817;
+    background-color: #513db2;
 }
 
 .box {
