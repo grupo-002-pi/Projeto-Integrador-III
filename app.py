@@ -130,5 +130,39 @@ def error():
     return render_template('error_update.html')
 
 
+@app.route('/teste_python')
+def teste_python():
+    return render_template('teste_python.html')
+
+
+@app.route('/teste_banco_dados')
+def teste_banco_dados():
+    return render_template('teste_banco_dados.html')
+
+@app.route('/teste_economia')
+def teste_economia():
+    return render_template('teste_economia.html')
+
+@app.route('/teste_prod_textos')
+def teste_prod_textos():
+    return render_template('teste_prod_textos.html')
+
+@app.route('/answers_python')
+def answers_python():
+    return render_template('answers_python.html')
+
+@app.route('/answers_banco_dados')
+def answers_banco_dados():
+    return render_template('answers_banco_dados.html')
+
+@app.route('/answers_prod_textos')
+def answers_prod_textos():
+    return render_template('answers_prod_textos.html')
+
+@app.route('/answers_economia')
+def answers_economia():
+    return render_template('answers_economia.html')
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug = True)
